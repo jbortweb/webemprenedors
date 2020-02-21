@@ -1,35 +1,59 @@
 #cabecera {
 
     background-color:rgb(218, 214, 214) ;
-    height: 70px;
+    height: 5em;
     width: 100%;
-    text-align:left;
+    text-align:center;
 }
 
 
 #menu li {
 
-    display: block;
+    border: 1px solid black;
     list-style: none;
     display: inline-block;
-    margin-top: 30px;
-    padding-right: 10px;
-    margin-left:20px;
+    margin-top: 1em;
+    padding-left: 0.5em;
+    padding-right:0.5em;
+    
+    
     
       
 }
+
+#menu {
+
+    border: 1px solid black;
+    width: 67em;
+    height: 5em;
+    margin: auto;
+    
+    
+    
+}
+
 
 
 
 #logcab{
 
-    
+    border: 1px solid black;
+
+    display:block;
     float: left;
-    height: 50px;
-    width: 240px;
-    margin-left: 80px;
-    padding-top:10px; 
+    height: 3em;
+    width: 15em;
+    margin-left: 9em;
+    padding-top:0.65em; 
        
+}
+
+#logprin {
+
+    display:block;
+    
+    margin:auto;
+    padding-top: 2em;
 }
 
 
