@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Premis Emprenedors</title>
     
-    <link rel="stylesheet" href="estils.css">
+    <link rel="stylesheet" href="recursos/estils.css">
 
 </head>
 <body>
@@ -15,17 +15,27 @@
 
         <img id="logcab" src="imagenes\logo_cabecera.png"> 
 
-        <nav id="menu">
+        <nav class="menu">
 
-            <ul>
+            <ul class="linea">
 
                
 
-                <li>INICI</li>
-                <li>BASES I MODELS</li>
-                <li>ENTREGA DE PREMIS</li>
-                <li>NOTES DE PRENSA</li>
-                <li>INFORMACIÓ</li>
+                <li><a href="index.html">INICI</a></li>
+                <li><a href="paginas/bases.html">BASES I MODELS</a></li>
+                <li><a href="paginas/premis.html">ENTREGA DE PREMIS</a>
+                    
+                    <ul class="submenu">
+                        
+                        <li><a href="diecinueve.html">2019</a></li>
+                        <li><a href="dieciocho.html">2018</a></li>
+
+                    </ul>
+                </li>
+                
+                <li><a href="paginas/prensa.html">NOTES DE PRENSA</a></li>
+                <li><a href="paginas/informacio.html">INFORMACIÓ</a></li>
+
 
                 
                 
@@ -33,6 +43,8 @@
 
         </nav>
     </header>
+
+    
 
     <section>
 
@@ -42,7 +54,7 @@
 
         </article>
 
-        <article>
+        <article class="agrupar"> 
             
             
             <br><br>
@@ -57,6 +69,11 @@
             
 
                 <hr>
+        </article>
+
+    
+        <article class="texto">
+    
 
                 <p>L'objectiu és la promoció de la iniciativa emprenedora a la comarca, 
                     la difusió de innovació i el
@@ -78,19 +95,51 @@
                     més innovadora en els darrers tres anys.</li>
 
                 <li>Premi a la innovació Turística. Per empresaris/es que hagin estat capaç d'innovar en producte,
-                     servei o processos en el sectro turisme.</li>
-            </ul>
-                    
+                     servei o processos en el sector turisme.</li>
+            </ul>                    
             
 
         </article>
+
     </section>
+
+
+</div>
 
     <footer>
 
+        <table>
+
+            <tr>
+                <td><a title="Figueres" href="http://www.figueres.cat"><img src="imagenes\logospie\figueres.png" alt="Ajuntament de Figueres" Title="Figueres" class="logabajo"></a></td>
+                <td><a title="Roses" href="http://www.roses.cat/"><img src="imagenes\logospie\roses.png" alt="Ajuntament de Roses" Title="Roses" class="logabajo"></a></td>
+                <td><a title="Consell" href="https://www.altemporda.org"><img src="imagenes\logospie\consell.png" alt="Consell Comarcal" Title="Consell" class="logabajo"></a></td>
+                <td><a title="Forum" href="http://forumimagina.com/"><img src="imagenes\logospie\imagina.png" alt="Forun Imagina" Title="Imagina" class="logabajo"></a></td>
+                <td><a title="Emporda" href="https://www.emporda.info/"><img src="imagenes\logospie\emporda.png" alt="Empordà" Title="Emporda" class="logabajo"></a></td>
+                
+            </tr>
+
+        </table>
+
+        <table>
+
+            <tr>
+                <td><a title="Empresaris" href="http://www.aeeg.cat/ca/"><img src="imagenes\logospie\empresaris.png" alt="Associació d'Empresaris" Title="Empresaris" class="logabajo"></a></td>
+                <td><a title="Educacio" href="http://ensenyament.gencat.cat/ca/inici"><img src="imagenes\logospie\educacio.png" alt="Departament d'Educació" Title="Educació" class="logabajo"></a></td>
+                <td><a title="Diputacio" href="http://www.ddgi.cat/web/"><img src="imagenes\logospie\diputacio.png" alt="Diputació de Girona" Title="Diputacio" class="logabajo"></a></td>
+                <td><a title="Generalitat" href="http://web.gencat.cat/ca/inici/"><img src="imagenes\logospie\gene.png" alt="Generalitat de Catalunya" Title="Generalitat" class="logabajo"></a></td>
+                <td><a title="Empren" href="http://catempren.gencat.cat/ca/inici"><img src="imagenes\logospie\empren.png" alt="Catalunya emprèm" Title="Emprèm" class="logabajo"></a></td>
+                <td><a title="Unio" href="https://europa.eu/european-union/index_es"><img src="imagenes\logospie\europea.png" alt="Unió Europea" Title="Europea" class="logabajo"></a></td>
+                
+                
+                
+            </tr>
+        </table>
 
 
     </footer>
+
+
 
     
 </body>

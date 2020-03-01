@@ -1,0 +1,158 @@
+
+* {
+    font-family:arial;
+}
+
+/*****************NAVEGADOR*************/
+
+#cabecera {
+
+    background-color:rgb(218, 214, 214) ;
+    height: 5em;
+    width: 100%;
+    text-align:center;
+}
+
+
+.menu li {
+
+    
+    list-style: none;
+    display: inline-block;
+    margin-top: 2em;
+    padding-left: 2em;
+    padding-right:2em;
+    font-weight: bold;
+   
+    
+    
+    
+      
+}
+
+.menu {
+
+    
+    width: 80em;
+    height: 5em;
+    margin: auto;
+    text-align: right;
+    
+    }
+
+
+.menu a {
+
+    text-decoration: none;
+    color:rgb(126, 123, 123)
+}
+
+
+
+/* submenu */
+
+.submenu { 
+    border: 1px black solid;
+    position: absolute;
+    background:white;
+    width: 5em;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    
+    
+    
+      
+}
+
+.submenu li a {
+
+    display:Inline-block;
+    width: 3em;
+    border: 1px black solid;
+    
+    padding: 0.3em;
+    color: black;
+    font-family: Verdana;
+   
+}
+
+.linea li:hover .submenu {
+
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+
+/****************ARTICULOS*******************/
+
+h3 {
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.agrupar {
+
+    margin-right:20em;
+    margin-left:20em;
+}
+
+.texto {
+
+    margin-left:22em;
+    margin-right:22em;
+    padding-top:2em;
+    font-size: 1.1em;
+    font-weight: 500;
+    
+}
+
+/***********************IMAGENES****************/
+
+#logcab{
+
+    
+    display: block;
+    display:block;
+    float: left;
+    height: 3em;
+    width: 15em;
+    margin-left: 21em;
+    padding-top:1em; 
+       
+}
+
+#logprin {
+
+    display:block;
+    width: 80em;    
+    margin:auto;
+    padding-top: 1em;
+}
+
+/******************TABLA******************/
+
+table {
+    
+   
+    width: 78em;
+    height: 5em;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+
+}
+
+.logabajo {
+
+    width:13em;
+}
+
+td:hover {
+    
+    transform:scale(1,1.5);
+    transition:all 1s;
+}
